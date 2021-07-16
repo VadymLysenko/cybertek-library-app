@@ -67,5 +67,7 @@ public class Login_StepDefenitions {
 
         Assert.assertTrue(actual.contains(expected));
 
+        Driver.closeDriver();
+
     }
 }
